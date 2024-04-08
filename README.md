@@ -4,7 +4,7 @@ A Transparent Code Reading Process.
 
 Open Source Software is an integral part of today's society, powering
 virtually every commonly used device connected to the internet to some
-extend. Operating Systems, Browsers, and Servers use a lot of open
+extend. Operating systems, browsers, and servers use a lot of open
 source software internally.
 
 The aim of this project is to enable everyone to learn how to access
