@@ -12,8 +12,8 @@ gatekeepers as specified by the [EU Digital Markets Act
 (DMA)](https://digital-markets-act.ec.europa.eu/gatekeepers_en) are
 inspected:
 
-- Google Android
 - Chrome
+- Google Android
 - iOS
 - Messenger
 - Safari
