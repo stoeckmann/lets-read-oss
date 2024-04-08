@@ -38,10 +38,17 @@ versions are used within the project.
 The following platforms have been identified to be of relevance:
 
 - arm64
-- riscv64
-- wasm
 - x86\_64
 
 Legacy support exists for:
 
 - x86
+
+### Reasoning for Hardware Platforms
+
+The platforms arm64 and x86\_64 are supported by Windows. Also the
+[build instructions of Chromium](https://chromium.googlesource.com/chromium/src/+/main/docs/windows_build_instructions.md)
+for Windows indicate support for both platforms explicitly.
+
+The [rustc platform support](https://doc.rust-lang.org/nightly/rustc/platform-support.html)
+lists arm64, x86 and x86\_64 as tier 1.
