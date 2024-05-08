@@ -38,6 +38,7 @@ versions are used within the project.
 The following platforms have been identified to be of relevance:
 
 - arm64
+- riscv64
 - x86\_64
 
 Legacy support exists for:
@@ -52,3 +53,8 @@ for Windows indicate support for both platforms explicitly.
 
 The [rustc platform support](https://doc.rust-lang.org/nightly/rustc/platform-support.html)
 lists arm64, x86 and x86\_64 as tier 1.
+
+Android's [bionic](https://android.googlesource.com/platform/bionic/+/refs/heads/main/libc/)
+contains explicit optimizations for arm64, riscv64, x86, and x86\_64. Also its
+[continuous integration](https://ci.android.com/builds/branches/aosp-main/grid?legacy=1)
+covers arm64, riscv64, x86, and x86\_64.
