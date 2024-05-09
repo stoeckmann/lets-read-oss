@@ -15,6 +15,7 @@ inspected:
 - Chrome
 - Google Android
 - iOS
+- iPadOS
 - Messenger
 - Safari
 - Whatsapp
